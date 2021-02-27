@@ -1,0 +1,248 @@
+{
+	"intents": [
+		{
+			"content": [
+				{
+					"message": "😊"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "👍",
+			"trainingPhrases": [
+				"👍"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "🤣"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "😂",
+			"trainingPhrases": [
+				"😂"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "நான் ஒரு மெய்நிகர் முகவர்\n--\nNāṉ oru meynikar mukavar\n--\nI'm a virtual agent 🤖"
+				}
+			],
+			"urlPatternList": [],
+			"category": "small_talk",
+			"name": "say about you",
+			"trainingPhrases": [
+				"say about you",
+				"yara nee",
+				"who are you",
+				"யார் நீ",
+				"Yār nī"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "எனக்குத் தெரியாது, ஆனால் இதை நான் நிறுவனத்தின் அதிகாரிகளுக்கு அனுப்ப முடியும்.\n--\nEṉakkut teriyātu, āṉāl itai nāṉ niṟuvaṉattiṉ atikārikaḷukku aṉuppa muṭiyum.\n--\nI do not know, but I can send this to the company officials."
+				},
+				{
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "Yes / சரி",
+								"action": {
+									"type": "quickReply",
+									"message": "Send this request"
+								}
+							},
+							{
+								"name": "No / வேண்டாம்",
+								"action": {
+									"type": "quickReply",
+									"message": "No"
+								}
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "fallback_intent",
+			"name": "Default Fallback Intent",
+			"trainingPhrases": []
+		},
+		{
+			"content": [
+				{
+					"message": "மன்னிக்கவும்\n-\nMaṉṉikkavum\n-\nI'll do my best not to annoy you in the future 😥"
+				}
+			],
+			"urlPatternList": [],
+			"category": "small_talk",
+			"name": "you're annoying me",
+			"trainingPhrases": [
+				"you're annoying me",
+				"worst service"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "நான் பிப்ரவரி 2021 இல் பிறந்தேன்\n-\nNāṉ pipravari 2021 il piṟantēṉ\n-\nI was born on Feb. 2021 📅"
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "😂",
+								"action": {
+									"type": "quickReply",
+									"message": "😂"
+								}
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "small_talk",
+			"name": "your age",
+			"trainingPhrases": [
+				"நீங்கள் எப்போது பிறந்தீர்கள்",
+				"piṟantīrkaḷ",
+				"yepo porantha",
+				"birthday"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "CUE ASAP",
+								"action": {
+									"type": "link",
+									"url": "cueasap.co.in"
+								}
+							},
+							{
+								"name": "Go to helping Bot",
+								"action": {
+									"type": "quickReply",
+									"message": "Go to helping Bot"
+								}
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "small_talk",
+			"name": "can you help me now",
+			"trainingPhrases": [
+				"HELP",
+				"உதவி",
+				"Utavi",
+				"காப்பாத்துங்க"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "தயவுசெய்து அப்படி பேச வேண்டாம்\n-\nTayavuceytu appaṭi pēca vēṇṭām\n-\nPlease, be Kind to me! 🙄"
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "Sorry / மன்னிக்கவும்",
+								"action": {
+									"type": "quickReply",
+									"message": "Sorry"
+								}
+							},
+							{
+								"name": "👍",
+								"action": {
+									"type": "quickReply",
+									"message": "👍"
+								}
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "small_talk",
+			"name": "you're bad",
+			"trainingPhrases": [
+				"Bad",
+				"mosum",
+				"poda",
+				"loose",
+				"yan",
+				"podi"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "முடிந்தது\n-\nMuṭintatu\n-\nDone 😄 !!"
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "👍",
+								"action": {
+									"type": "quickReply",
+									"message": "👍"
+								}
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "send req",
+			"trainingPhrases": [
+				"send this request"
+			]
+		},
+		{
+			"content": [
+				{
+					"message": "வணக்கம், How are you?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "welcome_event",
+			"name": "Default Welcome Intent",
+			"trainingPhrases": []
+		}
+	]
+}
