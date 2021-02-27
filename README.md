@@ -1,6 +1,5 @@
 # ![LOGO](https://github.com/CUE-ASAP/Design-and-Raw-files/blob/main/LOGO/sample/cueLOGO.png) 
-# CUE ASAP
-## Design-and-Raw-files
+# CUE ASAP / Design-and-Raw-files
 All the UI components with SVG icons and some illustration for CUE ASAP can be cloned from here...
 
 
